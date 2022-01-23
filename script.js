@@ -20,5 +20,5 @@ function removeActiveClasses() {
 }
 
 function changeMsg(msg) {
-    document.getElementById('msg').innerHTML = msg;
+    document.getElementById('msg').textContent = msg;
 }
